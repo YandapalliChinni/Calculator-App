@@ -1,18 +1,37 @@
 # Calculator-App
-A simple and intuitive calculator application built with HTML, CSS, and JavaScript. This app performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It's designed to be user-friendly and responsive, making it easy to use on both desktop and mobile devices.
+Overview
+This is a simple, fully functional calculator application built using HTML, CSS, and JavaScript. The app performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-Features
-Basic Arithmetic Operations: Supports addition, subtraction, multiplication, and division.
-Responsive Design: Optimized for use on both desktop and mobile devices.
-User-Friendly Interface: Clean and straightforward layout for easy operation.
-Preview
+## **Features**
 
-Technologies Used
-HTML for structure
-CSS for styling
-JavaScript for functionality
-Usage
-To use the calculator, simply open the index.html file in any web browser.
+**Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
 
-Contact
-For any questions or feedback, please contact me at chinniyandapalli04@gmail.com.
+**Responsive Design**: The calculator is fully responsive and works well on various devices, including desktops, tablets, and smartphones.
+
+**Clear Button**: Easily clear the current calculation and start a new one.
+
+**User-Friendly Interface**: Intuitive and easy-to-use interface.
+
+## **Technologies Used**
+
+**HTML**: For structuring the app.
+
+**CSS**: For styling the app.
+
+**JavaScript**: For implementing the calculator's functionality.
+
+## **Usage**
+
+Open the calculator app.
+
+Click the buttons to enter numbers and operations.
+
+Click = to see the result.
+
+Click C to clear the current calculation.
+
+## **Contact**
+For any inquiries or feedback, you can reach me at:
+
+**Email**: chinniyandapalli04@gmail.com
+**GitHub**: YandapalliChinni
