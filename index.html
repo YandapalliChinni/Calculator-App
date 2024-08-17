@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body style="background-image: url(./background.jpg);">
+    <div class="container">
+        <div class="calculator">
+            <h1>Calculator</h1>
+            <form name="calc">
+                <div class="display">
+                    <input type="text" name="display" id="display">
+                </div>
+                <div class="buttons">
+                    <div>
+                        <input type="button" value="%" onclick="calculate('%')">
+                        <input type="button" value="CE" onclick="clearEntry()">
+                        <input type="button" value="C" onclick="clearDisplay()">
+                        <input type="button" value="&#x232b;" onclick="backspace()">
+                    </div>
+                    <div>
+                        <input type="button" value="1/x" onclick="calculate('1/x')">
+                        <input type="button" value="x²" onclick="calculate('x²')">
+                        <input type="button" value="&radic;x" onclick="calculate('√x')">
+                        <input type="button" value="&divide;" onclick="addOperator('/')">
+                    </div>
+                    <div>
+                        <input type="button" value="7" onclick="addToDisplay('7')">
+                        <input type="button" value="8" onclick="addToDisplay('8')">
+                        <input type="button" value="9" onclick="addToDisplay('9')">
+                        <input type="button" value="*" onclick="addOperator('*')">
+                    </div>
+                    <div>
+                        <input type="button" value="4" onclick="addToDisplay('4')">
+                        <input type="button" value="5" onclick="addToDisplay('5')">
+                        <input type="button" value="6" onclick="addToDisplay('6')">
+                        <input type="button" value="-" onclick="addOperator('-')">
+                    </div>
+                    <div>
+                        <input type="button" value="1" onclick="addToDisplay('1')">
+                        <input type="button" value="2" onclick="addToDisplay('2')">
+                        <input type="button" value="3" onclick="addToDisplay('3')">
+                        <input type="button" value="+" onclick="addOperator('+')">
+                    </div>
+                    <div>
+                        <input type="button" value="+/-" onclick="toggleSign()">
+                        <input type="button" value="0" onclick="addToDisplay('0')">
+                        <input type="button" value="." onclick="addToDisplay('.')">
+                        <input type="button" value="=" class="equal-button" onclick="evaluateExpression()" style="background-color:green; color:white">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="history" id="history">
+            <h2>History</h2>
+            <div id="history-entries">
+                <!-- History will be displayed here -->
+            </div>
+            <button onclick="clearHistory()">Clear History</button>
+        </div>
+    </div>
+    <script src="index2.js"></script>
+</body>
+</html>
